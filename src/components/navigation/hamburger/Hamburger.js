@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../svg-icons/hamburger-bars.svg';
+import { ReactComponent as Logo } from './hamburger-bars.svg';
 import './Hamburger.css';
 
 const Hamburger = (props) => {
