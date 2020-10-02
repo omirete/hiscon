@@ -1,0 +1,18 @@
+.book-card {
+    position: relative;
+}
+
+.book-card .book-cover-container {
+    height: 50vmin;
+    width: 33vmin;
+}
+
+.book-card .book-cover-img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 7px;
+}

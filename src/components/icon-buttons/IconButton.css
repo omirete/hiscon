@@ -1,0 +1,48 @@
+.icon-button {
+    display: block;
+    -webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.icon-button a.circle-enclosed {
+    border: solid 1px #FFFFFF;
+    border-radius: 50%;
+}
+.icon-button a {
+    display: block;
+    text-align: center;
+    position: relative;
+    -webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.icon-button a .svg-icon {
+	display: block;
+    text-align: center;
+    fill: #ffffff;
+    margin: auto;
+    -webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-button:hover a {
+    border-color: #ff3500;
+}
+.icon-button:hover a .svg-icon {
+    fill: #ff3500;
+}
+/* .icon-button a span {
+	font-size: 1px;
+} */

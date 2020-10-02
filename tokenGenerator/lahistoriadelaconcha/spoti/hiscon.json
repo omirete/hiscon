@@ -1,0 +1,105 @@
+{
+  "available_markets" : [ "AD", "AE", "AL", "AR", "AT", "AU", "BA", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HR", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "ME", "MK", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "RS", "SE", "SG", "SI", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "XK", "ZA" ],
+  "copyrights" : [ ],
+  "description" : "Le decimos cotorra, argolla, flor (de concha), higo, agujero y a quién carajo se le ocurrió papo. Mi abuela le decía pochola, coño, cuchufleta, cajeta. El campo semántico de la concha es infinito. Y aunque desde tiempos inmemoriales la humanidad ha representado cuerpos desnudos, con los siglos la concha comenzó a desaparecer de las representaciones y del lenguaje. Recién en 1998 nos enteramos del tamaño del clítoris. Y, todavía, muchas personas confunden vulva y vagina. Esto es la Historia de la Concha, feat Julieta Morales.",
+  "episodes" : {
+    "href" : "https://api.spotify.com/v1/shows/7uarSUYpISt1SBIGGitQFi/episodes?offset=0&limit=50&market=AR",
+    "items" : [ {
+      "audio_preview_url" : "https://p.scdn.co/mp3-preview/f41572afdeca845e702ae96ff607d2241f837ceb",
+      "description" : "Para entender el presente hay que entender al pasado, así que embrace yourself que te invito a subir a mi máquina del tiempo que bauticé como cachufleta. Pongamos reversa y viajemos hacia la cuna de lo que sería la civilización occidental.  Pasearemos por el mito de Deméter y la exhibición de la concha de Baubo, hasta las figuras llamadas sheela-na-gigs -muy comunes en las puertas de iglesias en Irlanda e Inglaterra y a menudo asociadas con la tradición de la cultura celta.  Visitaremos también a las Dilukai de Micronesia -encargadas de ahuyentar a los espíritus malignos- y al culto yoni, la puerta de entrada a los misterios cósmicos.",
+      "duration_ms" : 785763,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/episode/6nefndAGT9SE3ILPVPFDgM"
+      },
+      "href" : "https://api.spotify.com/v1/episodes/6nefndAGT9SE3ILPVPFDgM",
+      "id" : "6nefndAGT9SE3ILPVPFDgM",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/f746985dd66f7a77be9e9c57056572f9f438690c",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/7847b6bb9f749c611d69785c893013c79865579f",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/47e241bcc9e2d1163735d5211359ce80d3bc6429",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "is_playable" : true,
+      "language" : "es-ES",
+      "languages" : [ "es-ES" ],
+      "name" : "Episodio 2: la Concha antigua.",
+      "release_date" : "2020-06-26",
+      "release_date_precision" : "day",
+      "type" : "episode",
+      "uri" : "spotify:episode:6nefndAGT9SE3ILPVPFDgM"
+    }, {
+      "audio_preview_url" : "https://p.scdn.co/mp3-preview/dff94f217e9168cdb2b4fce65b9358e54562cb22",
+      "description" : "Mientras que el pene es algo que se puede mostrar y realzar, nos hicieron creer que la concha es un no lugar, una no identidad y una carencia. Freud hablaba de la envidia del falo, de la castración. Una carencia no solo física sino también lingüística y, como consecuencia de esto, social y cultural. Alrededor del penúltimo siglo, los términos vulva, clitoris y labios vaginales no aparecían en el diccionario.   En el siglo XVII anatomistas y medicos, y lo digo en masculino porque eran hombres, redujeron este hermoso genital a la vagina. Precisión cero. En sus obras ginecológicas hablaban de eufemismos como sinus pudoris -«cueva de la vergüenza». Tenían unas confusiones terminológicas graves y la palabra vulva era empleada para referirse a la vulva, a la vagina o al utero, o para todo eso junto.   Y esta confusión duró varios siglos.",
+      "duration_ms" : 960313,
+      "explicit" : false,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/episode/66lKDgQpvf3CRb8y9Z5bGp"
+      },
+      "href" : "https://api.spotify.com/v1/episodes/66lKDgQpvf3CRb8y9Z5bGp",
+      "id" : "66lKDgQpvf3CRb8y9Z5bGp",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/f746985dd66f7a77be9e9c57056572f9f438690c",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/7847b6bb9f749c611d69785c893013c79865579f",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/47e241bcc9e2d1163735d5211359ce80d3bc6429",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "is_playable" : true,
+      "language" : "es-ES",
+      "languages" : [ "es-ES" ],
+      "name" : "Episodio 1: nombrar la Concha.",
+      "release_date" : "2020-05-31",
+      "release_date_precision" : "day",
+      "type" : "episode",
+      "uri" : "spotify:episode:66lKDgQpvf3CRb8y9Z5bGp"
+    } ],
+    "limit" : 50,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 2
+  },
+  "explicit" : false,
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/show/7uarSUYpISt1SBIGGitQFi"
+  },
+  "href" : "https://api.spotify.com/v1/shows/7uarSUYpISt1SBIGGitQFi",
+  "id" : "7uarSUYpISt1SBIGGitQFi",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/f746985dd66f7a77be9e9c57056572f9f438690c",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/7847b6bb9f749c611d69785c893013c79865579f",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/47e241bcc9e2d1163735d5211359ce80d3bc6429",
+    "width" : 64
+  } ],
+  "is_externally_hosted" : false,
+  "languages" : [ "es" ],
+  "media_type" : "audio",
+  "name" : "La historia de la Concha",
+  "publisher" : "Julieta Morales",
+  "total_episodes" : 2,
+  "type" : "show",
+  "uri" : "spotify:show:7uarSUYpISt1SBIGGitQFi"
+}

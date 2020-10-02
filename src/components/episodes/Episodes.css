@@ -1,0 +1,32 @@
+.episodes {
+	/* background: #2e3038; */
+	position: relative;
+	padding-top: 101px;
+	padding-bottom: 89px;
+	padding-left: 8vw;
+	padding-right: 8vw;
+}
+.episodes .section-title {
+	font-size: 48px;
+	font-weight: 500;
+	color: #797979;
+	margin-bottom: 2vmin;
+}
+.episodes .episode-cards {
+	display: flex;
+	flex-flow: row wrap;
+	flex-grow: 1;
+	width: 100%;
+	justify-content: center;
+}
+.episodes .episode-cards .episode-card {
+	margin: 2vw;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+/* .episodes .episode-cards .episode-card:hover {
+	transform: scale(1.05);
+} */

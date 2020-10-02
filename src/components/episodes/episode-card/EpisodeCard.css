@@ -1,0 +1,48 @@
+.episode-card {
+    height: min-content;
+    /* width: 40vmin; */
+    max-width: 400px;
+    border-radius: 3px;
+    /* overflow: hidden; */
+    background: #f6f6f6;
+}
+
+.episode-card .episode-information {
+    padding-top: 20px;
+    padding-left: 31px;
+    padding-bottom: 22px;
+    padding-right: 30px;
+}
+.episode-card .episode-information .description {
+    overflow: hidden;
+    max-height: 10ch;
+    /* padding-bottom: 10px; */
+    transition: max-height 1s cubic-bezier(0, 1, 0, 1);
+}
+.episode-card .episode-information .show-more {
+    color: #2e3038;
+}
+.episode-card .episode-information .show-more:hover {
+    color: #ff3500;
+    cursor: pointer;
+}
+.episode-card .episode-information .release-date {
+    font-size: 14px;
+    font-weight: 300;
+    color: #2e3038;
+}
+.episode-card .episode-information .title {
+    margin-top: 11px;
+}
+.episode-card .episode-information .title a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2e3038;
+    line-height: 1.5;
+}
+.episode-card .episode-information .title a:hover {
+    color: #ff3500;
+}
+.episode-card .episode-information .description {
+    margin-top: 23px;
+}

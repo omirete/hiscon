@@ -1,0 +1,43 @@
+.contact {
+	display: block;
+	background: #1f2128;
+	padding-top: 48px;
+	padding-bottom: 96px;
+}
+.contact .logo {
+	text-align: center;
+}
+.contact .logo img {
+	height: 33px;
+}
+.contact .logo-subtitle {
+    margin-top: 0;
+    color: rgba(255,255,255,0.3);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.contact .mail-info {
+	text-align: center;
+	margin-top: 22px;
+}
+.contact .mail-info a {
+	color: #007bff;
+}
+.contact .mail-info a:visited {
+	text-decoration: none;
+}
+.contact .mail-info a:hover {
+	color: #0056b3;
+}
+.contact .social-icons {
+	margin-top: 22px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+}
+.contact .social-icons div:not(:last-of-type) {
+	margin-right: 8px;
+}
