@@ -7,11 +7,11 @@ function Episodes(props) {
   const PODCAST_DATA = props.podcastData;
   const EPISODES = PODCAST_DATA.episodes.items;
 
-  const podcast_cards = EPISODES.splice(0).reverse().map((episode_data) => {
+  const podcast_cards = EPISODES.map((episode, i, episodes) => {
     return (
       <EpisodeCard
-        key={episode_data.id}
-        episodeData={episode_data} />
+        key={episodes[episodes.length-i-1].id}
+        episodeData={episodes[episodes.length-i-1]} />
     );
   });
 
