@@ -43,7 +43,6 @@ function App() {
 
   return (
     <div className="app-container">
-      <LoadingScreen isLoading={isLoading} />
       <NavBar toggleMenu={toggleMenu} />
       <Menu flagShow={flagShowMenu} toggleMenu={toggleMenu} />
       <Home podcastData={podcastData} />
