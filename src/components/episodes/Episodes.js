@@ -9,7 +9,9 @@ function Episodes(props) {
 
   const podcast_cards = EPISODES.reverse().map((episode_data) => {
     return (
-      <EpisodeCard key={episode_data.id} episodeData={episode_data} />
+      <EpisodeCard
+        key={episode_data.id}
+        episodeData={episode_data} />
     );
   });
 
