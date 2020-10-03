@@ -9,6 +9,7 @@ import AboutMe from './components/about-me/AboutMe.js';
 import Books from './components/books/Books.js';
 import Contact from './components/contact/Contact.js';
 
+// hiscon.json is used as a fallback in case the spotify api is down.
 import hiscon from './hiscon.json';
 
 function App() {
@@ -36,12 +37,11 @@ function App() {
         })
       
     }
-  });
+  }, [isLoading]);
 
   if(isLoading === true) {return <LoadingScreen isLoading={isLoading} />}
 
   return (
-    // <div className="app-container" onScroll={heythere}>
     <div className="app-container">
       <LoadingScreen isLoading={isLoading} />
       <NavBar toggleMenu={toggleMenu} />
