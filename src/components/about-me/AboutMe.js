@@ -24,7 +24,7 @@ function AboutMe(props) {
 
   useEffect(() => {
     const timeoutHandler = setTimeout(nextImage, 5000);
-    console.log("ran - " + imageIndex + " - " + imageIndex+1 % profile_images.length);
+    // console.log("ran - " + imageIndex + " - " + imageIndex+1 % profile_images.length);
     return () => clearTimeout(timeoutHandler);
   });
 
@@ -38,7 +38,7 @@ function AboutMe(props) {
         <div className="flex-item about-me-text">
           <div className="section-title"><h1>Acerca de mí.</h1></div>
           <div className="about-me-description">
-            <p>Mi posición sexual favorita es yo arriba y abajo el patriarcado. Nací en Argentina, soy Comunicadora Social y tengo un Master en Género. Y, si bien trabajo como periodista y para organizaciones de Derechos Humanos, lo que más me gusta hacer es hablar sobre la concha.</p>
+            <p>Me llamo Julieta Morales. Mi posición sexual favorita es yo arriba y abajo el patriarcado. Nací en Argentina, soy Comunicadora Social y tengo un Master en Género. Y, si bien trabajo como periodista y para organizaciones de Derechos Humanos, lo que más me gusta hacer es hablar sobre la concha.</p>
           </div>
         </div>
         <div className="flex-item about-me-profile-image">
