@@ -41,7 +41,8 @@
 }
 .menu .nav-links a {
 	/* position: relative; */
-	font-size: 25px;
+	/* font-size: 25px; */
+	font-size: calc(20px + 1vmin);
 	color: #FFFFFF;
 	font-weight: 400;
 	line-height: 1.3;
@@ -99,14 +100,12 @@
 .menu .nav-links a:nth-child(9) {
 	transition-delay: 1200ms;
 }
-
-.menu .menu-content .separator {
-	/* height: 100%; */
-	/* flex-basis: 100%; */
-	/* margin: auto; */
+.menu .social-buttons .social-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
-
-
 .menu .social-buttons {
 	display: flex;
 	flex-flow: column nowrap;
@@ -114,7 +113,6 @@
 	/* height: 100%; */
 	justify-content: flex-end;
 	align-items: flex-start;
-
 }
 .menu .social-buttons .big-social-buttons {
 	margin-bottom: 15px;

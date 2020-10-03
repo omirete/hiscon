@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import LoadingScreen from './components/loading-screen/LoadingScreen.js'
 import NavBar from './components/navigation/navbar/NavBar.js';
-import Menu from './components/menu/Menu.js';
 import Home from './components/home/Home.js';
 import Episodes from './components/episodes/Episodes.js';
 import AboutMe from './components/about-me/AboutMe.js';
@@ -16,11 +15,6 @@ function App() {
 
   const [isLoading, setIsLoading] = useState(true);
   const [podcastData, setPodcastData] = useState();
-  const [flagShowMenu, setFlagShowMenu] = useState(false);
-  const toggleMenu = () => {
-    setFlagShowMenu(!flagShowMenu);
-    console.log(JSON.stringify(podcastData.episodes.items))
-  }
   
   useEffect(() => {
     if (isLoading === true ) {
@@ -43,8 +37,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <NavBar toggleMenu={toggleMenu} />
-      <Menu flagShow={flagShowMenu} toggleMenu={toggleMenu} />
+      <NavBar />
       <Home podcastData={podcastData} />
       <Episodes podcastData={podcastData} />
       <AboutMe />

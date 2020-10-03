@@ -5,10 +5,15 @@ import ButtonSpotify from '../../icon-buttons/social/ButtonSpotify.js';
 import ButtonInstagram from '../../icon-buttons/social/ButtonInstagram.js';
 import ButtonTwitter from '../../icon-buttons/social/ButtonTwitter.js';
 import Hamburger from '../hamburger/Hamburger.js';
+import Menu from '../menu/Menu.js';
 
 function NavBar(props) {
 
   const [flagScrolled, setFlagScrolled] = useState(false);
+  const [flagShowMenu, setFlagShowMenu] = useState(false);
+  const toggleMenu = () => {
+    setFlagShowMenu(!flagShowMenu);
+  }
 
   useEffect(() => {
 
@@ -55,7 +60,6 @@ function NavBar(props) {
             <a href="#about">Acerca de mí</a>
             <a href="#episodes">Episodios</a>
             <a href="#books">Libros que recomiendo</a>
-            {/* <li><a href="blog.html">Blog</a></li> */}
             <a href="#contact">Contacto</a>
           </nav>
 
@@ -79,11 +83,14 @@ function NavBar(props) {
           <div className="hamburger-container">
             <Hamburger
               size="32"
-              onClick={props.toggleMenu} />
+              onClick={toggleMenu} />
           </div>
 
         </div>
       </header >
+      <Menu
+        flagShow={flagShowMenu}
+        toggleMenu={toggleMenu} />
     </div>
   );
 }

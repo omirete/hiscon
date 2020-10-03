@@ -1,8 +1,8 @@
 import React from 'react';
 import './Menu.css';
-import ButtonSpotify from '../icon-buttons/social/ButtonSpotify.js';
-import ButtonInstagram from '../icon-buttons/social/ButtonInstagram.js';
-import ButtonTwitter from '../icon-buttons/social/ButtonTwitter.js';
+import ButtonSpotify from '../../icon-buttons/social/ButtonSpotify.js';
+import ButtonInstagram from '../../icon-buttons/social/ButtonInstagram.js';
+import ButtonTwitter from '../../icon-buttons/social/ButtonTwitter.js';
 
 function Menu(props) {
 
@@ -16,15 +16,16 @@ function Menu(props) {
           <a href="#books" onClick={props.toggleMenu}>Libros que recomiendo</a>
           <a href="#contact" onClick={props.toggleMenu}>Contacto</a>
         </nav>
-        {/* <div className="flex-item separator"></div> */}
         <div className="flex-item social-buttons">
-          <div className="big-social-buttons">
-            <a href="https://open.spotify.com/show/7uarSUYpISt1SBIGGitQFi">¡Escuchalo en spotify!</a>
-          </div>
-          <div className="small-social-buttons">
-            <ButtonInstagram size="40" />
-            <ButtonTwitter size="40" />
-            <ButtonSpotify size="40" />
+          <div className="social-container">
+            <div className="big-social-buttons">
+              <a href="https://open.spotify.com/show/7uarSUYpISt1SBIGGitQFi">¡Escuchalo en spotify!</a>
+            </div>
+            <div className="small-social-buttons">
+              <ButtonInstagram size="40" />
+              <ButtonTwitter size="40" />
+              <ButtonSpotify size="40" />
+            </div>
           </div>
         </div>
       </div>
