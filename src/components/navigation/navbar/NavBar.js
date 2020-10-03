@@ -80,11 +80,9 @@ function NavBar(props) {
             </div>
           </div>
 
-          <div className="hamburger-container">
-            <Hamburger
-              size="32"
-              onClick={toggleMenu} />
-          </div>
+          <Hamburger
+            size="32"
+            onClick={toggleMenu} />
 
         </div>
       </header >

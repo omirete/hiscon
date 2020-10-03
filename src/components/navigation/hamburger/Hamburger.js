@@ -6,7 +6,7 @@ const Hamburger = (props) => {
   const iconScale = 0.8;
   return (
     <div
-      className="my-hamburger"
+      className="hamburger"
       onClick={props.onClick}
       style={{
         height: props.size*iconScale + "px",
