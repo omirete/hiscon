@@ -68,7 +68,50 @@
 	/* flex-basis: 30vw; */
 	/* flex-basis: 400px; */
 	max-width: 600px;
+	/* position: relative; */
+	display: grid;
+	grid-template-columns: 1fr;
+	/* height: 600px; */
 }
 .about-me-profile-image img {
-    border-radius: 10px;
+	border-radius: 10px;
+	-webkit-transition: all 1000ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	-moz-transition: all 1000ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	-ms-transition: all 1000ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: all 1000ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 1000ms cubic-bezier(0.165, 0.84, 0.44, 1);
+	/* position: absolute;
+	top: 0;
+	left: 0; */
+	grid-row-start: 1;
+	grid-column-start: 1;
+	/* box-shadow: 0px 5px 5px 5px #00000020; */
+}
+
+.about-me-profile-image img.active {
+	opacity: 1;
+	transform: translate(0%, 0%);
+	z-index: 1;
+}
+.about-me-profile-image img.previous {
+	/* opacity: 0;
+	transform: translate(50%, 0%) scale(0.5) rotate(25deg); */
+	opacity: 1;
+	transform: translate(20%, 0%) scale(0.8) rotate(5deg);
+	filter: blur(10px);
+	z-index: 0;
+}
+.about-me-profile-image img.next-up {
+	/* opacity: 0;
+	transform: translate(-50%, 0%) scale(0.5) rotate(-25deg); */
+	opacity: 1;
+	transform: translate(-20%, 0%) scale(0.8) rotate(-5deg);
+	filter: blur(10px);
+	z-index: 0;
+}
+.about-me-profile-image img.other {
+	opacity: 0;
+	transform: translate(0%, 0%) scale(0.8) rotate(0deg);
+	filter: blur(10px);
+	z-index: -1;
 }
