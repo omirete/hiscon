@@ -57,8 +57,8 @@ function NavBar(props) {
 
           <nav className="nav-links">
             <a href="#home">Inicio</a>
-            <a href="#about">Acerca de mí</a>
             <a href="#episodes">Episodios</a>
+            <a href="#about">Acerca de mí</a>
             <a href="#books">Libros que recomiendo</a>
             <a href="#contact">Contacto</a>
           </nav>

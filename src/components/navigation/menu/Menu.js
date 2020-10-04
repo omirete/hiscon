@@ -11,8 +11,8 @@ function Menu(props) {
       <div className="menu-content">
         <nav className="flex-item nav-links">
           <a href="#home" onClick={props.toggleMenu}>Inicio</a>
-          <a href="#about" onClick={props.toggleMenu}>Acerca de mí</a>
           <a href="#episodes" onClick={props.toggleMenu}>Episodios</a>
+          <a href="#about" onClick={props.toggleMenu}>Acerca de mí</a>
           <a href="#books" onClick={props.toggleMenu}>Libros que recomiendo</a>
           <a href="#contact" onClick={props.toggleMenu}>Contacto</a>
         </nav>
