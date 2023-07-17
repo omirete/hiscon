@@ -17,7 +17,7 @@ function Contact() {
       </div>
 
       <div className="mail-info">
-        Contacto: <a href="mailto:julieta@lahistoriadelaconcha.com.ar">julieta@lahistoriadelaconcha.com.ar</a>
+        Contacto: <a href="mailto:hello@julietamorales.com">hello@julietamorales.com</a>
       </div>
 
       <div className="social-icons">
