@@ -26,7 +26,7 @@ function App() {
         })
         .catch((e) => {
           setPodcastData(hiscon);
-          console.log("Using static copy of hiscon.json.")
+          console.error("Could not fetch live data. Using cache as a fallback.")
           setIsLoading(false);
         })
       
