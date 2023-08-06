@@ -10,10 +10,10 @@ def log(msg: str, type: Literal["log", "error"] = "log"):
     print(log_line)
     try:
         with open('log', 'a', encoding='utf-8') as f:
-            f.write(log_line)
+            f.write(f"{log_line}\n")
     except FileNotFoundError:
         with open('log', 'w', encoding='utf-8') as f:
-            f.write(log_line)
+            f.write(f"{log_line}\n")
 
 
 def get_spotify_token(client_id: str, client_secret: str) -> str:
