@@ -2,24 +2,24 @@
     "title" : "El fruto prohibido",
     "author" : "Liv Strömquist",
     "description" : "El fruto prohibido es una historia cultural de la vulva, desde la Biblia hasta Freud y más allá, pasando por los más variopintos padres de la Iglesia, pedagogos, sexólogos e incluso por famosos anuncios de tampones que, tras siglos y siglos de represión sexual, han seguido llenando nuestras cabezas de concepciones falsas sobre los genitales femeninos.",
-    "image" : "fruto-prohibido.jpg",
+    "image" : "/images/book-covers/fruto-prohibido.jpg",
     "url_buy": "https://www.amazon.es/El-fruto-prohibido-RESERVOIR-GRÁFICA/dp/8417125116/"
 },{
     "title" : "Brujas",
     "author" : "Mona Chollet",
     "description" : "Mona Chollet reflexiona, en este brillante ensayo, sobre la herencia patriarcal en el pensamiento europeo, desde la caza de brujas hasta la actualidad. Este libro explora tres estereotipos de mujer y el proceso que condujo a su estigmatización, así como lo que queda en la actualidad de esa visión, tanto en nuestros prejuicios como en nuestras representaciones: la mujer independiente, puesto que viudas y solteras fueron especial mente perseguidas; la mujer sin hijos, puesto que la época de las persecuciones señaló el fin de la tolerancia hacia las que pretendían controlar su fertilidad; y la mujer mayor, convertida desde entonces en objeto de aversión.",
-    "image" : "brujas.jpg",
+    "image" : "/images/book-covers/brujas.jpg",
     "url_buy": "https://www.amazon.es/Brujas-Mona-Chollet/dp/8466665587/"
 },{
     "title" : "El fin del amor. Querer y coger en el siglo XXI”",
     "author" : "Tamara Tenenbaum",
     "description" : "El fin del amor deja entrever qué sucede cuando el matrimonio o la pareja monógama ya no son un objetivo de vida y es una herramienta para la destrucción creativa del amor romántico y los postulados que lo sostienen, para que de sus cenizas salga un amor mejor, que haga más libres a hombres y mujeres en sus vínculos. Desde el valor de la amistad hasta la cultura del consentimiento, pasando por la maternidad como elección o imperativo, la soltería deseada o aborrecida, el poliamor, las parejas abiertas, el funcionamiento de las tecnologías del deseo (Happn, Tinder), y con una vasta bibliografía sobre estos temas, Tamara Tenenbaum habla de todo para zambullirse en el universo de los afectos, celebrar el fin del amor romántico y proponer la erotización del consentimiento.",
-    "image" : "fin-del-amor.jpg",
+    "image" : "/images/book-covers/fin-del-amor.jpg",
     "url_buy": "https://www.amazon.es/El-fin-del-amor-Querer-ebook/dp/B07QNDPZ9Z/"
 },{
     "title" : "Las malas",
     "author" : "Camila Sosa Villada",
     "description" : "Cuando llegó a Córdoba capital para estudiar en la universidad, Camila Sosa Villada fue una noche, muerta de miedo, a espiar a las travestis del Parque Sarmiento y encontró su primer lugar de pertenencia en el mundo. Las malas es un rito de iniciación, un cuento de hadas y de terror, un retrato de grupo, un manifiesto explosivo, una visita guiada a la imaginación de su autora y una crónica distinta de todas. En su adn convergen las dos facetas trans que más repelen y aterran a la buena sociedad: la furia travesti y la fiesta de ser travesti. En su voz literaria conviven Marguerite Duras, Wislawa Szymborska y Carson McCullers, con tonada cordobesa. Las malas es esa clase de libro que, en cuanto terminamos de leer, queremos que lo lea el mundo entero.",
-    "image" : "las-malas.jpg",
+    "image" : "/images/book-covers/las-malas.jpg",
     "url_buy": "https://www.amazon.es/malas-Andanzas-Camila-Sosa-Villada/dp/849066806X/"
 }]

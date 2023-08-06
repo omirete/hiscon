@@ -1,8 +1,8 @@
-import React from 'react';
 import './Home.css';
 import background_image from '../../images/old_school.jpg';
+import Show from '../../types/spotify/Show';
 
-function Home(props) {
+function Home(props: {podcastData: Show}) {
 
   const show_id = props.podcastData.id;
 
@@ -50,8 +50,9 @@ function Home(props) {
                 src={"https://open.spotify.com/embed-podcast/show/" + show_id}
                 width="100%"
                 height="232"
-                frameBorder="0"
-                allowtransparency="true"
+                style={{border: 0}}
+                // frameBorder="0"
+                // allowtransparency="true"
                 allow="encrypted-media">
               </iframe>
               <div className="date">{formatted_release_date}</div>
